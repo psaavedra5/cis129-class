@@ -13,10 +13,10 @@ print ('Number of coffees bought?')
 number_coffees = int(input ())
 print('Number of muffins bought ?')
 number_muffins = int(input())
-	Print('Number of cheesecakes bought ?')
-	number_cheesecakes = int(input())
-	Print('Number of chocomilks bought ? ')
-	 number_chocolatemilks = int(input())
+Print('Number of cheesecakes bought ?')
+number_cheesecakes = int(input())
+Print('Number of chocomilks bought ? ')
+number_chocomilks = int(input())
 ## Here is asking the user how many of each item would it like 
 
 print('*************************************')
@@ -27,8 +27,7 @@ Totalcheesecakes = number_cheesecakes * Cheesecake
 Totalchocomilks = number_chocomilks * Chocomilk
 ##Here is each total individully with out taxes
 
-Subtotal= (number_coffees * Coffee)+(number_muffins*Muffin) \
- (number_cheesecakes * Cheesecake) + (number_chocomilks * Chocomilk )
+Subtotal= (number_coffees * Coffee)+ (number_muffins*Muffin) + (number_cheesecakes * Cheesecake) + (number_chocomilks * Chocomilk )
 ## Here is the subtotal to calculate the tax out of that 
 
 tax=0.06 * Subtotal
